@@ -4,4 +4,10 @@
 
 2.链接器->输入->附加依赖项  ****.dll
 
-3.运行的dll目录添加    调试->环境 Path=$(SolutionDir)bin
+3.运行的dll目录添加    调试->环境 Path=$(SolutionDir)dll 
+这个没有push到git, 在工程目录下新建dll目录，把opencv_world430.dll 和 opencv_world430d.dll拷到这个目录下就可以了。
+
+
+opencv 下载地址 https://www.bzblog.online/opencv/
+新建工程参考 https://blog.csdn.net/ctrigger/article/details/91360963
+
