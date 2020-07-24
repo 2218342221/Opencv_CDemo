@@ -2,7 +2,7 @@
 包含目录 include
 库目录 lib
 
-2.链接器->输入->附加依赖项  ****.dll
+2.链接器->输入->附加依赖项  ****.lib
 
 3.运行的dll目录添加    调试->环境 Path=$(SolutionDir)dll 
 这个没有push到git, 在工程目录下新建dll目录，把opencv_world430.dll 和 opencv_world430d.dll拷到这个目录下就可以了。
